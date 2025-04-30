@@ -32,14 +32,17 @@ A computer vision-based virtual mouse system that allows you to control your mou
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/srivasthav-2036/gesture-mouse-control.git
-
-2. Navigate to the project directory:
+    ```bash
+    git clone https://github.com/srivasthav-2036/gesture-mouse-control.git
+    ```
+3. Navigate to the project directory:
+   ```bash
    cd gesture-mouse-control
-   
-3. Installing required libraries:
+   ```
+5. Installing required libraries:
+   ```bash
    pip install opencv-python mediapipe numpy pyautogui
-
+    ```
 
 ## Usage
 
@@ -51,18 +54,22 @@ A computer vision-based virtual mouse system that allows you to control your mou
    Condition: Index finger angle >50°, thumb-index distance <50 units, also the index finger must be within the box
    ### Left Click:
    👈 Close thumb + bend index = Left Click
-   Condition: Index and thumb angles <50°, index and middle finger angle >50°, thumb-index distance >50 units.
+   <br>
+   **Condition**: Index and thumb angles <50°, index and middle finger angle >50°, thumb-index distance >50 units.
    ### Right Click:
    👉 Close thumb + bend middle = Right Click
-   Condition: Thumb-index angle <50°, index-middle angle >90°, thumb-index distance >50 units.
+   <br>
+   **Condition**: Thumb-index angle <50°, index-middle angle >90°, thumb-index distance >50 units.
    ### Double Click:
    ✌️ Bend both index and middle = Double Click
-   Condition: Index-thumb angle <50°, index-middle angle <50°, thumb-index distance >50 units.
-   ### ScreenShot:
+   <br>
+   **Condition**: Index-thumb angle <50°, index-middle angle <50°, thumb-index distance >50 units.
+   ### Screenshot:
    ✊ Close all fingers = Screenshot
-   Condition: Index-thumb angle <50°, index-middle angle <50°, thumb-index distance <50 units.
+   <br>
+   **Condition**: Index-thumb angle <50°, index-middle angle <50°, thumb-index distance <50 units.
 
-3. Make sure your hand stays inside the blue box for accurate tracking and gesture detection.
+4. Make sure your hand stays inside the blue box for accurate tracking and gesture detection.
 
 
 
