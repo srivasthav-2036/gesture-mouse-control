@@ -16,7 +16,7 @@ A computer vision-based virtual mouse system that allows you to control your mou
   
 ##  Preview
 
-![Gesture Mouse Control](path_to_your_screenshot_or_demo_video)
+![Gesture Mouse Control](Handgesture_img.png)
 
 
 ## Requirements
